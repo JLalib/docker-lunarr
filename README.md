@@ -28,7 +28,7 @@ Lunarr es un servidor de streaming multimedia moderno y minimalista diseñado co
 - Puerto TCP: 3000 (personalizable mediante el mapeo de puertos en Docker Compose).
 - Base de datos: SQLite (embebido en la imagen oficial de Docker, no requiere configuración adicional).
 - FFmpeg: Incluido en la imagen de Docker para manejar la transcodificación cuando sea necesario.
-- Variable de entorno : Cadena segura de al menos 32 bytes en formato hexadecimal (generable con 2c41e4e61c21f833250a240e325f75fc77c2161e5f0631b7dfa52ad7fc073bf0).
+- Variable de entorno : Cadena segura de al menos 32 bytes en formato hexadecimal (generable con c7fc0b4f2a51d8ee2730c57aa02aea2840a5a69e5ffb443e987eda9132f9aa71).
 
 ## Instalación con Docker Compose
 
@@ -195,8 +195,3 @@ Considera **Emby** si:
 ## Licencia
 
 Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener los detalles completos.
-
----
-
-*Este repositorio se genera automáticamente a partir de tu publicación de blog:*  
-[Cómo instalar Lunarr en Docker - Servidor de streaming de medios autohospedado en Docker](https://genbyte.blogspot.com/2026/07/como-instalar-lunarr-en-docker-servidor.html)
